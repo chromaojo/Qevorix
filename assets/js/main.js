@@ -69,11 +69,11 @@
     }
   }
   scrollTop.addEventListener('click', (e) => {
-    e.preventDefault();
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
+    // e.preventDefault();
+    // window.scrollTo({
+    //   top: 0,
+    //   behavior: 'smooth'
+    // });
   });
 
   window.addEventListener('load', toggleScrollTop);
