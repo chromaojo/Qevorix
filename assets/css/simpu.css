@@ -39,19 +39,31 @@
 }
 
 
-/* MARKETING CONTENT
--------------------------------------------------- */
+  /* Hover effect for headings */
+  .carousel-caption h1 {
+    transition: all 0.4s ease;
+    cursor: pointer;
+  }
 
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-/* rtl:begin:ignore */
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
+  .carousel-caption h1:hover {
+    color: gold !important;
+    transform: translateY(-5px) scale(1.02);
+    text-shadow: 0 0 15px rgba(13, 110, 253, 0.7);
+  }
+
+  /* Hover effect for paragraphs */
+  .carousel-caption p {
+    transition: all 0.4s ease;
+    cursor: pointer;
+  }
+
+  .carousel-caption p:hover {
+    color: #faeba8;
+    transform: translateY(-3px);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    opacity: 1 !important;
+  }
+
 
 
 
